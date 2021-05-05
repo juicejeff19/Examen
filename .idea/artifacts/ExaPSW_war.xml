@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ExaPSW:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ExaPSW</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ExaPSW-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ExaPSW:war exploded" />
+    </root>
+  </artifact>
+</component>

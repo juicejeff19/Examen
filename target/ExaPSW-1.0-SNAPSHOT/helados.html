@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar Helado</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav>
+    <div class="logo">
+        <img src="css/Heladito2.jpg" alt="Logo">
+        <br>
+        <p class="logotext">
+            BEN AND JERRY’S
+        </p>
+    </div>
+    <ul>
+        <li><a href="mostrarHelados.jsp">Productos</a></li>
+        <li><a href="registro.html">Registro</a></li>
+        <li><a href="loginUsuario.html">Iniciar sesion</a></li>
+    </ul>
+</nav>
+<section id="main-content"></section>
+<div class="login">
+    <div class="containerHelado">
+
+        <form name="formularioHelado" method="post"
+              action="RegHelado">
+            <label>Nombre:</label>
+            <input type="text" name="neim">
+            <br>
+            <label>Sabor 1:</label>
+            <input type="text" name="sabor1">
+            <br>
+            <label>Sabor 2:</label>
+            <input type="text" name="sabor2">
+            <br>
+            <label>Sabor 3:</label>
+            <input type="text" name="sabor3">
+            <br>
+            <label>Precio:</label>
+            <input type="number" name="precio">
+            <br>
+            <label>Descuento (Numerico)(opcional):</label>
+            <input type="number" name="descuento">
+            <br>
+            <input type="submit" value="Registrar Helado">
+            <a href="index.html">Volver a la página Principal</a>
+            <a href="eliminarHelado.html">EliminarHelado</a>
+        </form>
+    </div>
+    <br>
+</div>
+<footer id="main-footer">
+    <h3>Nombres: Alcalá Rangel Jeffrey Alexander, Villalobos Contreras Jesus, Veites Uruchurtu Diego</h3>
+</footer>
+</body>
+</html>
